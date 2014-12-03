@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+
+ <script src="script.js"></script>
+</head>
+<body ng-controller="MainCtrl">
+  <h3>Login</h3>
+  <!-- Form to get username & Password -->
+ 
+   <form>
+      <label>Username:</label><input type="text" ng-model="username" required/></br></br>
+      <label></label>Password:</label><input type="password" ng-model="password" required></br>
+      <button  type="submit" ng-click="submit()">login</button>
+  </form>
+
+<!-- Displaying the Array using ng-repeat -->
+
+</body>
+</html>

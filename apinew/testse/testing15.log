@@ -1,0 +1,44 @@
+{
+    "event": "suiteStart",
+    "suite": "MyDBTestCase",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "MyDBTestCase",
+    "test": "MyDBTestCase::testReadDatabase"
+}{
+    "event": "test",
+    "suite": "MyDBTestCase",
+    "test": "MyDBTestCase::testReadDatabase",
+    "status": "error",
+    "time": 0.10300493240356,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\TestDB.php",
+            "line": 35,
+            "function": "createMySQLXMLDataSet",
+            "class": "PHPUnit_Extensions_Database_TestCase",
+            "type": "->",
+            "args": [
+                "E:\\wamp\\www\\apinew\\testse\\tests\\fixtures\\posts.xml"
+            ]
+        },
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\TestDB.php",
+            "line": 61,
+            "function": "getDataSet",
+            "class": "TestDB",
+            "type": "->",
+            "args": [
+                [
+                    "posts",
+                    "postmeta",
+                    "options",
+                    "myschemas"
+                ]
+            ]
+        }
+    ],
+    "message": "The root element of a MySQL XML data set file must be called <mysqldump>",
+    "output": ""
+}

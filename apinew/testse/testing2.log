@@ -1,0 +1,169 @@
+{
+    "event": "suiteStart",
+    "suite": "tests",
+    "tests": 12
+}{
+    "event": "suiteStart",
+    "suite": "ExampleTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "ExampleTest",
+    "test": "ExampleTest::testsourceeasy"
+}{
+    "event": "test",
+    "suite": "ExampleTest",
+    "test": "ExampleTest::testsourceeasy",
+    "status": "pass",
+    "time": 0.018000841140747,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "PracticeTest",
+    "tests": 11
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testsourceeasy"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testsourceeasy",
+    "status": "pass",
+    "time": 0.0050010681152344,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testContinuousTests"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testContinuousTests",
+    "status": "pass",
+    "time": 0.0060000419616699,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserIndex"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserIndex",
+    "status": "pass",
+    "time": 0.005000114440918,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserLoginPost"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserLoginPost",
+    "status": "pass",
+    "time": 0.0060009956359863,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserShow"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserShow",
+    "status": "pass",
+    "time": 0.005000114440918,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserUpdate"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserUpdate",
+    "status": "pass",
+    "time": 0.0050008296966553,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserDelete"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserDelete",
+    "status": "pass",
+    "time": 0.005000114440918,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testPutUserUpdate"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testPutUserUpdate",
+    "status": "pass",
+    "time": 0.0049998760223389,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetSessionStatus"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetSessionStatus",
+    "status": "pass",
+    "time": 0.0049998760223389,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserSessionPost"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserSessionPost",
+    "status": "pass",
+    "time": 0.0060009956359863,
+    "trace": [],
+    "message": "",
+    "output": "NULL\n"
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetProfile"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetProfile",
+    "status": "pass",
+    "time": 0.005000114440918,
+    "trace": [],
+    "message": "",
+    "output": ""
+}

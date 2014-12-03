@@ -1,0 +1,69 @@
+{
+    "event": "suiteStart",
+    "suite": "tests",
+    "tests": 11
+}{
+    "event": "suiteStart",
+    "suite": "ExampleTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "ExampleTest",
+    "test": "ExampleTest::testsourceeasy"
+}{
+    "event": "test",
+    "suite": "ExampleTest",
+    "test": "ExampleTest::testsourceeasy",
+    "status": "pass",
+    "time": 0.020002126693726,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "PracticeTest",
+    "tests": 10
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testsourceeasy"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testsourceeasy",
+    "status": "pass",
+    "time": 0.005000114440918,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testContinuousTests"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testContinuousTests",
+    "status": "pass",
+    "time": 0.0050008296966553,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserIndex"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserIndex",
+    "status": "pass",
+    "time": 0.0060000419616699,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserLoginPost"
+}

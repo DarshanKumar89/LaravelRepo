@@ -1,0 +1,48 @@
+{
+    "event": "suiteStart",
+    "suite": "tests\/GuzzleApiTest",
+    "tests": 3
+}{
+    "event": "suiteStart",
+    "suite": "APIGuzzleTest",
+    "tests": 3
+}{
+    "event": "testStart",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testapi"
+}{
+    "event": "test",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testapi",
+    "status": "pass",
+    "time": 1.1160640716553,
+    "trace": [],
+    "message": "",
+    "output": "200application\/json{\"object\":\"list\",\"data\":[{\"object\":\"user\",\"userId\":3,\"userFname\":\"sam\",\"userLname\":\"anet\",\"userEmail\":\"s@s.com\",\"userIsActive\":true,\"created_at\":1409216367,\"updated_at\":1409216367}],\"paginator\":{\"total_count\":1,\"total_pages\":1,\"current_page\":1,\"limit\":15}}array (\n  'object' => 'list',\n  'data' => \n  array (\n    0 => \n    array (\n      'object' => 'user',\n      'userId' => 3,\n      'userFname' => 'sam',\n      'userLname' => 'anet',\n      'userEmail' => 's@s.com',\n      'userIsActive' => true,\n      'created_at' => 1409216367,\n      'updated_at' => 1409216367,\n    ),\n  ),\n  'paginator' => \n  array (\n    'total_count' => 1,\n    'total_pages' => 1,\n    'current_page' => 1,\n    'limit' => 15,\n  ),\n)"
+}{
+    "event": "testStart",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testUserPostapi"
+}{
+    "event": "test",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testUserPostapi",
+    "status": "pass",
+    "time": 0.0039999485015869,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testConcurrentReq"
+}{
+    "event": "test",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testConcurrentReq",
+    "status": "pass",
+    "time": 1.9171090126038,
+    "trace": [],
+    "message": "",
+    "output": ""
+}

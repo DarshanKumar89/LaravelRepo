@@ -1,0 +1,368 @@
+{
+    "event": "suiteStart",
+    "suite": "tests",
+    "tests": 24
+}{
+    "event": "suiteStart",
+    "suite": "ApiTest",
+    "tests": 2
+}{
+    "event": "testStart",
+    "suite": "ApiTest",
+    "test": "ApiTest::testPostuser"
+}{
+    "event": "test",
+    "suite": "ApiTest",
+    "test": "ApiTest::testPostuser",
+    "status": "fail",
+    "time": 0.085005044937134,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\ApiTest.php",
+            "line": 20,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "c@c.com",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'c@c.com'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ApiTest",
+    "test": "ApiTest::testUserUpdate"
+}{
+    "event": "test",
+    "suite": "ApiTest",
+    "test": "ApiTest::testUserUpdate",
+    "status": "error",
+    "time": 0.01200008392334,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\ApiTest.php",
+            "line": 27,
+            "function": "handleError",
+            "class": "PHPUnit_Util_ErrorHandler",
+            "type": "::",
+            "args": [
+                8,
+                "Undefined variable: response",
+                "E:\\wamp\\www\\apinew\\testse\\tests\\ApiTest.php",
+                27,
+                []
+            ]
+        }
+    ],
+    "message": "Undefined variable: response",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "ExampleTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "ExampleTest",
+    "test": "ExampleTest::testsourceeasy"
+}{
+    "event": "test",
+    "suite": "ExampleTest",
+    "test": "ExampleTest::testsourceeasy",
+    "status": "pass",
+    "time": 0.0069999694824219,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "PracticeTest",
+    "tests": 11
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testsourceeasy"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testsourceeasy",
+    "status": "pass",
+    "time": 0.0049998760223389,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testContinuousTests"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testContinuousTests",
+    "status": "pass",
+    "time": 0.0050010681152344,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserIndex"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserIndex",
+    "status": "pass",
+    "time": 0.004000186920166,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserLoginPost"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserLoginPost",
+    "status": "pass",
+    "time": 0.0070009231567383,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserShow"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserShow",
+    "status": "pass",
+    "time": 0.0049998760223389,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserUpdate"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserUpdate",
+    "status": "pass",
+    "time": 0.0039999485015869,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserDelete"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserDelete",
+    "status": "pass",
+    "time": 0.0070011615753174,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testPutUserUpdate"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testPutUserUpdate",
+    "status": "pass",
+    "time": 0.0039999485015869,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetSessionStatus"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetSessionStatus",
+    "status": "pass",
+    "time": 0.0050010681152344,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserSessionPost"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserSessionPost",
+    "status": "pass",
+    "time": 0.0039999485015869,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetroles"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetroles",
+    "status": "pass",
+    "time": 0.0049998760223389,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "ScopeTest",
+    "tests": 5
+}{
+    "event": "testStart",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testGetScopeIndex"
+}{
+    "event": "test",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testGetScopeIndex",
+    "status": "pass",
+    "time": 0.005000114440918,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testScopePost"
+}{
+    "event": "test",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testScopePost",
+    "status": "pass",
+    "time": 0.0060000419616699,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testGetScope"
+}{
+    "event": "test",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testGetScope",
+    "status": "pass",
+    "time": 0.0050010681152344,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testScopeDelete"
+}{
+    "event": "test",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testScopeDelete",
+    "status": "pass",
+    "time": 0.0039999485015869,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testPutScopeUpdate"
+}{
+    "event": "test",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testPutScopeUpdate",
+    "status": "pass",
+    "time": 0.042002201080322,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "VendorTest",
+    "tests": 4
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testVendorPost"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testVendorPost",
+    "status": "pass",
+    "time": 0.0049998760223389,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testGetVendorIndex"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testGetVendorIndex",
+    "status": "pass",
+    "time": 0.0060000419616699,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testVendorDelete"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testVendorDelete",
+    "status": "pass",
+    "time": 0.005000114440918,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testPutVendorUpdate"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testPutVendorUpdate",
+    "status": "pass",
+    "time": 0.0050010681152344,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "UserControllerTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "UserControllerTest",
+    "test": "Warning"
+}{
+    "event": "test",
+    "suite": "UserControllerTest",
+    "test": "Warning",
+    "status": "fail",
+    "time": 0.017001152038574,
+    "trace": [],
+    "message": "No tests found in class \"UserControllerTest\".",
+    "output": ""
+}

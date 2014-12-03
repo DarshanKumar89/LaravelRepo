@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Satisfy);
+
+body {
+	background-color: #ddd;
+	font-family: 'Satisfy', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #1E824C;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: #999;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	color: #777;
+}
+
+.button {
+	background-color: #1E824C;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.button:hover {
+	color: #eee;
+	background-color: #056933;
+}
+
+.non-cursive {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ff0033;
+	font-size: .7em;
+}
+
+.container {
+	width: 60%;
+	max-width: 500px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+header {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+header h1 {
+	font-size: 4rem;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.subtitle {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 0;
+	color: #888;
+}
+
+.task-list {
+	margin-top: 30px;
+}
+
+.tasks {
+	color: #696969;
+	font-size: 1.5em;
+	margin-bottom: 20px;
+}
+
+.sub-tasks {
+	font-size: 1.2em;
+	color: #808080;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.due-date {
+	float: right;
+	font-size: .8em;
+	color: #999;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.new-task-btn {
+	margin-top: 10px;
+}

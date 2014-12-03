@@ -1,0 +1,174 @@
+{
+    "event": "suiteStart",
+    "suite": "tests\/GuzzleApiTest",
+    "tests": 3
+}{
+    "event": "suiteStart",
+    "suite": "APIGuzzleTest",
+    "tests": 3
+}{
+    "event": "testStart",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testapi"
+}{
+    "event": "test",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testapi",
+    "status": "pass",
+    "time": 1.9491109848022,
+    "trace": [],
+    "message": "",
+    "output": "200application\/json{\"object\":\"list\",\"data\":[{\"object\":\"user\",\"userId\":1,\"userFname\":\"ayush\",\"userLname\":\"goshasasa\",\"userEmail\":\"b@b.com\",\"userIsActive\":true,\"created_at\":1408865687,\"updated_at\":1408865687}],\"paginator\":{\"total_count\":1,\"total_pages\":1,\"current_page\":1,\"limit\":15}}array (\n  'object' => 'list',\n  'data' => \n  array (\n    0 => \n    array (\n      'object' => 'user',\n      'userId' => 1,\n      'userFname' => 'ayush',\n      'userLname' => 'goshasasa',\n      'userEmail' => 'b@b.com',\n      'userIsActive' => true,\n      'created_at' => 1408865687,\n      'updated_at' => 1408865687,\n    ),\n  ),\n  'paginator' => \n  array (\n    'total_count' => 1,\n    'total_pages' => 1,\n    'current_page' => 1,\n    'limit' => 15,\n  ),\n)"
+}{
+    "event": "testStart",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testUserPostapi"
+}{
+    "event": "test",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testUserPostapi",
+    "status": "error",
+    "time": 0.96805596351624,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\vendor\\guzzlehttp\\guzzle\\src\\Exception\\RequestException.php",
+            "line": 71
+        },
+        {
+            "file": "E:\\wamp\\www\\apinew\\vendor\\guzzlehttp\\guzzle\\src\\Subscriber\\HttpError.php",
+            "line": 31,
+            "function": "create",
+            "class": "GuzzleHttp\\Exception\\RequestException",
+            "type": "::",
+            "args": [
+                {},
+                {}
+            ]
+        },
+        {
+            "file": "E:\\wamp\\www\\apinew\\vendor\\guzzlehttp\\guzzle\\src\\Event\\Emitter.php",
+            "line": 105,
+            "function": "onComplete",
+            "class": "GuzzleHttp\\Subscriber\\HttpError",
+            "type": "->",
+            "args": [
+                {},
+                "complete"
+            ]
+        },
+        {
+            "file": "E:\\wamp\\www\\apinew\\vendor\\guzzlehttp\\guzzle\\src\\Event\\RequestEvents.php",
+            "line": 75,
+            "function": "emit",
+            "class": "GuzzleHttp\\Event\\Emitter",
+            "type": "->",
+            "args": [
+                "complete",
+                {}
+            ]
+        },
+        {
+            "file": "E:\\wamp\\www\\apinew\\vendor\\guzzlehttp\\guzzle\\src\\Adapter\\Curl\\CurlAdapter.php",
+            "line": 94,
+            "function": "emitComplete",
+            "class": "GuzzleHttp\\Event\\RequestEvents",
+            "type": "::",
+            "args": [
+                {},
+                {
+                    "url": "http:\/\/test.se.dev\/v1\/users",
+                    "content_type": "application\/json",
+                    "http_code": 400,
+                    "header_size": 612,
+                    "request_size": 253,
+                    "filetime": -1,
+                    "ssl_verify_result": 0,
+                    "redirect_count": 0,
+                    "total_time": 0.921,
+                    "namelookup_time": 0,
+                    "connect_time": 0,
+                    "pretransfer_time": 0,
+                    "size_upload": 89,
+                    "size_download": 145,
+                    "speed_download": 157,
+                    "speed_upload": 96,
+                    "download_content_length": -1,
+                    "upload_content_length": 89,
+                    "starttransfer_time": 0.889,
+                    "redirect_time": 0,
+                    "redirect_url": "",
+                    "primary_ip": "127.0.0.1",
+                    "certinfo": [],
+                    "primary_port": 80,
+                    "local_ip": "127.0.0.1",
+                    "local_port": 19769,
+                    "curl_result": 0
+                }
+            ]
+        },
+        {
+            "file": "E:\\wamp\\www\\apinew\\vendor\\guzzlehttp\\guzzle\\src\\Adapter\\StreamingProxyAdapter.php",
+            "line": 34,
+            "function": "send",
+            "class": "GuzzleHttp\\Adapter\\Curl\\CurlAdapter",
+            "type": "->",
+            "args": [
+                {}
+            ]
+        },
+        {
+            "file": "E:\\wamp\\www\\apinew\\vendor\\guzzlehttp\\guzzle\\src\\Client.php",
+            "line": 193,
+            "function": "send",
+            "class": "GuzzleHttp\\Adapter\\StreamingProxyAdapter",
+            "type": "->",
+            "args": [
+                {}
+            ]
+        },
+        {
+            "file": "E:\\wamp\\www\\apinew\\vendor\\guzzlehttp\\guzzle\\src\\Client.php",
+            "line": 181,
+            "function": "send",
+            "class": "GuzzleHttp\\Client",
+            "type": "->",
+            "args": [
+                {}
+            ]
+        },
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\GuzzleApiTest\\APIGuzzleTest.php",
+            "line": 78,
+            "function": "post",
+            "class": "GuzzleHttp\\Client",
+            "type": "->",
+            "args": [
+                "http:\/\/test.se.dev\/v1\/users",
+                {
+                    "body": {
+                        "userFname": "sam",
+                        "userLname": "janet",
+                        "userPassword": "4567",
+                        "userEmail": "sam@sam.com",
+                        "userIsActive": "true"
+                    }
+                }
+            ]
+        }
+    ],
+    "message": "Client error response [url] http:\/\/test.se.dev\/v1\/users [status code] 400 [reason phrase] Bad Request",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testConcurrentReq"
+}{
+    "event": "test",
+    "suite": "APIGuzzleTest",
+    "test": "APIGuzzleTest::testConcurrentReq",
+    "status": "pass",
+    "time": 2.6881539821625,
+    "trace": [],
+    "message": "",
+    "output": ""
+}

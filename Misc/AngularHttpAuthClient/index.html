@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Angular authorization demo application</title>
+
+   
+    <link rel="stylesheet" href="app/login.css" type="text/css" />
+
+  
+        
+    <script src="lib/jquery-1.7.2.js" type="text/javascript"></script>
+    <script src="lib/angular-1.0.1.js" type="text/javascript"></script>
+    <script src="lib/angular-mocks-1.0.1.js" type="text/javascript"></script>
+    <script src="lib/http-auth-interceptor.js" type="text/javascript"></script>
+    <script src="app/content-mocks.js" type="text/javascript"></script>
+  
+    <script src="app/login.js" type="text/javascript"></script>
+    <script src="app/content.js" type="text/javascript"></script>
+    
+      <div class="wrapper">
+    <form class="form-signin">       
+      <h2 class="form-signin-heading">Please login</h2>
+      <input type="text" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+      <label class="checkbox">
+        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+      </label>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+    </form>
+  </div>
+  </body>
+</html>

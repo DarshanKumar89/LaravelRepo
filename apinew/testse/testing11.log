@@ -1,0 +1,900 @@
+{
+    "event": "suiteStart",
+    "suite": "tests",
+    "tests": 51
+}{
+    "event": "suiteStart",
+    "suite": "ApiTest",
+    "tests": 7
+}{
+    "event": "testStart",
+    "suite": "ApiTest",
+    "test": "ApiTest::testPostuser"
+}{
+    "event": "test",
+    "suite": "ApiTest",
+    "test": "ApiTest::testPostuser",
+    "status": "fail",
+    "time": 0.1360080242157,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\ApiTest.php",
+            "line": 22,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "c@c.com",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'c@c.com'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ApiTest",
+    "test": "ApiTest::testPostuserpass"
+}{
+    "event": "test",
+    "suite": "ApiTest",
+    "test": "ApiTest::testPostuserpass",
+    "status": "fail",
+    "time": 0.04000186920166,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\ApiTest.php",
+            "line": 28,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "12345",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected '12345'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ApiTest",
+    "test": "ApiTest::testUserUpdate"
+}{
+    "event": "test",
+    "suite": "ApiTest",
+    "test": "ApiTest::testUserUpdate",
+    "status": "fail",
+    "time": 0.039002895355225,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\ApiTest.php",
+            "line": 42,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "dan",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'dan'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ApiTest",
+    "test": "ApiTest::testRolePost"
+}{
+    "event": "test",
+    "suite": "ApiTest",
+    "test": "ApiTest::testRolePost",
+    "status": "fail",
+    "time": 0.057003021240234,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\ApiTest.php",
+            "line": 54,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "admin",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'admin'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ApiTest",
+    "test": "ApiTest::testRole"
+}{
+    "event": "test",
+    "suite": "ApiTest",
+    "test": "ApiTest::testRole",
+    "status": "fail",
+    "time": 0.054003000259399,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\ApiTest.php",
+            "line": 62,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "admin",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'admin'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ApiTest",
+    "test": "ApiTest::testRoleValue"
+}{
+    "event": "test",
+    "suite": "ApiTest",
+    "test": "ApiTest::testRoleValue",
+    "status": "fail",
+    "time": 0.03400182723999,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\ApiTest.php",
+            "line": 69,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "user",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'user'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ApiTest",
+    "test": "ApiTest::testPostUserCreate"
+}{
+    "event": "test",
+    "suite": "ApiTest",
+    "test": "ApiTest::testPostUserCreate",
+    "status": "pass",
+    "time": 0.0090000629425049,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "ExampleTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "ExampleTest",
+    "test": "ExampleTest::testsourceeasy"
+}{
+    "event": "test",
+    "suite": "ExampleTest",
+    "test": "ExampleTest::testsourceeasy",
+    "status": "pass",
+    "time": 0.010999917984009,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "PracticeTest",
+    "tests": 11
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testsourceeasy"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testsourceeasy",
+    "status": "pass",
+    "time": 0.010000944137573,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testContinuousTests"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testContinuousTests",
+    "status": "pass",
+    "time": 0.010000944137573,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserIndex"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserIndex",
+    "status": "pass",
+    "time": 0.010000944137573,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserLoginPost"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserLoginPost",
+    "status": "pass",
+    "time": 0.0080010890960693,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserShow"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserShow",
+    "status": "pass",
+    "time": 0.010000944137573,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserUpdate"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserUpdate",
+    "status": "pass",
+    "time": 0.0099999904632568,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserDelete"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserDelete",
+    "status": "pass",
+    "time": 0.0090000629425049,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testPutUserUpdate"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testPutUserUpdate",
+    "status": "pass",
+    "time": 0.0089998245239258,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetSessionStatus"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetSessionStatus",
+    "status": "pass",
+    "time": 0.0080001354217529,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserSessionPost"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserSessionPost",
+    "status": "pass",
+    "time": 0.0090000629425049,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetroles"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetroles",
+    "status": "pass",
+    "time": 0.01400089263916,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "ScopeTest",
+    "tests": 5
+}{
+    "event": "testStart",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testGetScopeIndex"
+}{
+    "event": "test",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testGetScopeIndex",
+    "status": "pass",
+    "time": 0.0080010890960693,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testScopePost"
+}{
+    "event": "test",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testScopePost",
+    "status": "pass",
+    "time": 0.0090010166168213,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testGetScope"
+}{
+    "event": "test",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testGetScope",
+    "status": "pass",
+    "time": 0.0080010890960693,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testScopeDelete"
+}{
+    "event": "test",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testScopeDelete",
+    "status": "pass",
+    "time": 0.013000965118408,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testPutScopeUpdate"
+}{
+    "event": "test",
+    "suite": "ScopeTest",
+    "test": "ScopeTest::testPutScopeUpdate",
+    "status": "pass",
+    "time": 0.013999938964844,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "VendorAddressTest",
+    "tests": 7
+}{
+    "event": "testStart",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testGetVendorAddressIndex"
+}{
+    "event": "test",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testGetVendorAddressIndex",
+    "status": "pass",
+    "time": 0.0099999904632568,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testVendorAddressPost"
+}{
+    "event": "test",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testVendorAddressPost",
+    "status": "fail",
+    "time": 0.035001993179321,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorAddressTest.php",
+            "line": 26,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "work",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'work'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testVendorAddressPost1"
+}{
+    "event": "test",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testVendorAddressPost1",
+    "status": "fail",
+    "time": 0.033001899719238,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorAddressTest.php",
+            "line": 34,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "work",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'work'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testVendorCity1"
+}{
+    "event": "test",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testVendorCity1",
+    "status": "fail",
+    "time": 0.13400816917419,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorAddressTest.php",
+            "line": 42,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "hydrabad",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'hydrabad'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testVendorAddressLine"
+}{
+    "event": "test",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testVendorAddressLine",
+    "status": "fail",
+    "time": 0.035001993179321,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorAddressTest.php",
+            "line": 51,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "bsk1st",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'bsk1st'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testGetVendorcontactDelete"
+}{
+    "event": "test",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testGetVendorcontactDelete",
+    "status": "pass",
+    "time": 0.016000986099243,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testGetVendorcontactshow"
+}{
+    "event": "test",
+    "suite": "VendorAddressTest",
+    "test": "VendorAddressTest::testGetVendorcontactshow",
+    "status": "pass",
+    "time": 0.0090010166168213,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "VendorContactTest",
+    "tests": 7
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactIndex"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactIndex",
+    "status": "pass",
+    "time": 0.013001203536987,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactPost"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactPost",
+    "status": "fail",
+    "time": 0.030001878738403,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorContactTest.php",
+            "line": 27,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "developer",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'developer'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactPost1"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactPost1",
+    "status": "fail",
+    "time": 0.037001848220825,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorContactTest.php",
+            "line": 35,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "darshan",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'darshan'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactNo1"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactNo1",
+    "status": "fail",
+    "time": 0.030001878738403,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorContactTest.php",
+            "line": 43,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "99005687",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected '99005687'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactNo"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactNo",
+    "status": "fail",
+    "time": 0.029001951217651,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorContactTest.php",
+            "line": 52,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "ab",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'ab'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactDelete"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactDelete",
+    "status": "pass",
+    "time": 0.0090010166168213,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactshow"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactshow",
+    "status": "pass",
+    "time": 0.0080010890960693,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "VendorTest",
+    "tests": 13
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testVendorPost"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testVendorPost",
+    "status": "pass",
+    "time": 0.010999917984009,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testGetVendorIndex"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testGetVendorIndex",
+    "status": "pass",
+    "time": 0.0079998970031738,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testVendorDelete"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testVendorDelete",
+    "status": "pass",
+    "time": 0.0079998970031738,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testPutVendorUpdate"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testPutVendorUpdate",
+    "status": "pass",
+    "time": 0.0079998970031738,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testFailureVendor"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testFailureVendor",
+    "status": "fail",
+    "time": 0.034002065658569,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorTest.php",
+            "line": 50,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "bangalore",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'bangalore'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExceptionHasRightMessage"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExceptionHasRightMessage",
+    "status": "fail",
+    "time": 0.031002044677734,
+    "trace": [],
+    "message": "Failed asserting that exception message 'Some Message' contains 'Right Message'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExceptionMessageMatchesRegExp"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExceptionMessageMatchesRegExp",
+    "status": "fail",
+    "time": 0.023000955581665,
+    "trace": [],
+    "message": "Failed asserting that exception message 'The Wrong Message' contains '\/Right.*\/'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExceptionHasRightCode"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExceptionHasRightCode",
+    "status": "fail",
+    "time": 0.036001920700073,
+    "trace": [],
+    "message": "Failed asserting that 10 is equal to expected exception code 20.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testException"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testException",
+    "status": "fail",
+    "time": 0.033001899719238,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorTest.php",
+            "line": 84,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "johnplayers",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'johnplayers'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testException2"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testException2",
+    "status": "fail",
+    "time": 0.031002044677734,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorTest.php",
+            "line": 96,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "bangalore",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'bangalore'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExpectVendorActualName"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExpectVendorActualName",
+    "status": "fail",
+    "time": 0.029001951217651,
+    "trace": [],
+    "message": "Failed asserting that two strings are equal.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExpectVendorActualLocation"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExpectVendorActualLocation",
+    "status": "fail",
+    "time": 0.027002096176147,
+    "trace": [],
+    "message": "Failed asserting that two strings are equal.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExpectVendorActualType"
+}{
+    "event": "test",
+    "suite": "VendorTest",
+    "test": "VendorTest::testExpectVendorActualType",
+    "status": "fail",
+    "time": 0.025001049041748,
+    "trace": [],
+    "message": "Failed asserting that two strings are equal.",
+    "output": ""
+}

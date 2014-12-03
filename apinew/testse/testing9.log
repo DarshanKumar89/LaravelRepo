@@ -1,0 +1,144 @@
+{
+    "event": "suiteStart",
+    "suite": "VendorContactTest",
+    "tests": 7
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactIndex"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactIndex",
+    "status": "pass",
+    "time": 0.017001152038574,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactPost"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactPost",
+    "status": "fail",
+    "time": 0.12300705909729,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorContactTest.php",
+            "line": 27,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "developer",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'developer'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactPost1"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactPost1",
+    "status": "fail",
+    "time": 0.030000925064087,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorContactTest.php",
+            "line": 35,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "darshan",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'darshan'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactNo1"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactNo1",
+    "status": "fail",
+    "time": 0.030001878738403,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorContactTest.php",
+            "line": 43,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "99005687",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected '99005687'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactNo"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testVendorcontactNo",
+    "status": "fail",
+    "time": 0.072004079818726,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorContactTest.php",
+            "line": 52,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "ab",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'ab'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactDelete"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactDelete",
+    "status": "pass",
+    "time": 0.0080010890960693,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactshow"
+}{
+    "event": "test",
+    "suite": "VendorContactTest",
+    "test": "VendorContactTest::testGetVendorcontactshow",
+    "status": "pass",
+    "time": 0.0090010166168213,
+    "trace": [],
+    "message": "",
+    "output": ""
+}

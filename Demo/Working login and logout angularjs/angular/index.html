@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="customerProfile">
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+
+ <script src="myapp.js"></script>
+
+
+
+</head>
+<body>
+
+<div class="loginForm" ng-controller="customerLoginController">
+    <form method="POST">
+        Username: <br /> 
+        <input type="text" placeholder="Enter your username" ng-model="customer.username" /><br /><br />
+
+        Password: <br /> 
+        <input type="password" placeholder="Enter your password" ng-model="customer.password" />
+
+        <span class="promptDetails" ng-click="getUserCredentials()"><a ui-sref="#" class="fetchLogDetails"></a></span>
+        <br />
+        <input type="button" id="loginUser" value="Login" ng-click="login(customer)" />
+    </form>
+</div><!-- End login form -->
+
+
+
+</body>
+</html>

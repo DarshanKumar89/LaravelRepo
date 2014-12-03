@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.1.14
+- http://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Aug 28, 2014 at 12:20 PM
+- Server version: 5.6.17
+- PHP Version: 5.5.12
+-->
+
+
+
+    <!--
+    - Database: 'se_db'
+    -->
+    <database name="se_db">
+        <!-- Table vendors -->
+        <table name="vendors">
+           
+            <column name="strVendorName">gapsss</column>
+            <column name="strVendorLocation">bangalore</column>
+            <column name="intVendorType">3</column>
+            <column name="intVendorCategory">3</column>
+            <column name="intVendorCapacity">3</column>
+            <column name="strVendorCompliance">correct</column>
+            <column name="strVendorIECCode">33</column>
+            <column name="bolVendorIsActive">true</column>
+                    
+        </table>
+        
+    </database>
+</pma_xml_export>

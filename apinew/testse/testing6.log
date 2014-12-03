@@ -1,0 +1,144 @@
+{
+    "event": "suiteStart",
+    "suite": "VendorBaccountTest",
+    "tests": 7
+}{
+    "event": "testStart",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testGetVendorbaccountIndex"
+}{
+    "event": "test",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testGetVendorbaccountIndex",
+    "status": "pass",
+    "time": 0.010000944137573,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testVendorbaccountPost"
+}{
+    "event": "test",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testVendorbaccountPost",
+    "status": "fail",
+    "time": 0.085004806518555,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorBaccountTest.php",
+            "line": 26,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "Citibank",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'Citibank'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testVendorbaccountPost1"
+}{
+    "event": "test",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testVendorbaccountPost1",
+    "status": "fail",
+    "time": 0.019001007080078,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorBaccountTest.php",
+            "line": 34,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "ICIC",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'ICIC'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testbaccountCity1"
+}{
+    "event": "test",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testbaccountCity1",
+    "status": "fail",
+    "time": 0.018000841140747,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorBaccountTest.php",
+            "line": 42,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "BSK",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'BSK'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testVendorbaccountNo"
+}{
+    "event": "test",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testVendorbaccountNo",
+    "status": "fail",
+    "time": 0.01400089263916,
+    "trace": [
+        {
+            "file": "E:\\wamp\\www\\apinew\\testse\\tests\\VendorBaccountTest.php",
+            "line": 51,
+            "function": "assertEquals",
+            "class": "PHPUnit_Framework_Assert",
+            "type": "::",
+            "args": [
+                "EF12300",
+                null
+            ]
+        }
+    ],
+    "message": "Failed asserting that null matches expected 'EF12300'.",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testGetVendorbaccountDelete"
+}{
+    "event": "test",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testGetVendorbaccountDelete",
+    "status": "pass",
+    "time": 0.0060000419616699,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testGetVendorbaccountshow"
+}{
+    "event": "test",
+    "suite": "VendorBaccountTest",
+    "test": "VendorBaccountTest::testGetVendorbaccountshow",
+    "status": "pass",
+    "time": 0.0049998760223389,
+    "trace": [],
+    "message": "",
+    "output": ""
+}

@@ -1,0 +1,104 @@
+{
+    "event": "suiteStart",
+    "suite": "tests",
+    "tests": 7
+}{
+    "event": "suiteStart",
+    "suite": "ExampleTest",
+    "tests": 1
+}{
+    "event": "testStart",
+    "suite": "ExampleTest",
+    "test": "ExampleTest::testsourceeasy"
+}{
+    "event": "test",
+    "suite": "ExampleTest",
+    "test": "ExampleTest::testsourceeasy",
+    "status": "pass",
+    "time": 0.020002126693726,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "suiteStart",
+    "suite": "PracticeTest",
+    "tests": 6
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testsourceeasy"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testsourceeasy",
+    "status": "pass",
+    "time": 0.0060000419616699,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testContinuousTests"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testContinuousTests",
+    "status": "pass",
+    "time": 0.0040009021759033,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserCreate"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetUserCreate",
+    "status": "pass",
+    "time": 0.0039999485015869,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserLoginPost"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserLoginPost",
+    "status": "pass",
+    "time": 0.0050008296966553,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetSessionStatus"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testGetSessionStatus",
+    "status": "pass",
+    "time": 0.0080008506774902,
+    "trace": [],
+    "message": "",
+    "output": ""
+}{
+    "event": "testStart",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserSessionPost"
+}{
+    "event": "test",
+    "suite": "PracticeTest",
+    "test": "PracticeTest::testUserSessionPost",
+    "status": "pass",
+    "time": 0.005000114440918,
+    "trace": [],
+    "message": "",
+    "output": ""
+}
